@@ -1,0 +1,50 @@
+.chat {
+    margin: 20px auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .input-text {
+    border-color: lightblue;
+    padding: 7px 10px;
+    width: 300px
+  }
+  
+  .btn {
+    background: lightblue;
+    border: none;
+    cursor: pointer;
+    padding: 7px 10px;
+    font-size: 15px;
+    color: dark-gray;
+  }
+  
+  .chat-window {
+    border: 2px solid lightblue;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: scroll;
+    position: relative;
+  }
+  
+  .recieved-massage {
+    align-self: flex-start;
+    border: 2px solid lightblue;
+    padding: 15px;
+  }
+  
+  .sent-massage {
+    align-self: flex-end;
+    border: 2px solid lightblue;
+  }
+  
+  .info {
+    margin: 0 auto;
+    color: grey;
+    font-style: italic;
+  }
